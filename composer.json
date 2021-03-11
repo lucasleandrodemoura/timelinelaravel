@@ -1,14 +1,43 @@
 {
     "name": "lucasleandrodemoura/timelinelaravel",
-    "description": "Folha de estilo de timaline.",
-    "authors": [{
-        "name": "Lucas Moura",
-        "email": "lucasleandrodemoura@gmail.com"
-    }],
+    "description": "A Openfire integration with ChatAPI and RestAPI",
+    "keywords": [
+        "lucasleandrodemoura",
+        "timeline"
+    ],
+    "homepage": "https://github.com/lucasleandrodemoura/timelinelaravel",
     "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lucas Moura",
+            "email": "lucasleandrodemoura@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "html": "^5.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
     "autoload": {
         "psr-4": {
-            "lucasleandrodemoura\\timelinelaravel\\": "src/"
+            "lucasleandrodemoura\\timelinelaravel\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+             "lucasleandrodemoura\\timelinelaravel\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
     }
 }
