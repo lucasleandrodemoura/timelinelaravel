@@ -1,0 +1,15 @@
+{
+    "name": "lucasleandrodemoura/timelinelaravel",
+    "description": "Folha de estilo de timaline.",
+    "authors": [{
+        "name": "Lucas Moura",
+        "email": "lucasleandrodemoura@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "lucasleandrodemoura\\timelinelaravel\\": "src/"
+        }
+    }
+}
